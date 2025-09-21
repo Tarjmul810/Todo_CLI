@@ -1,9 +1,9 @@
-Filesystem Todo CLI
+**Filesystem Todo CLI**
 
 A simple command-line todo list manager built with Node.js.
 It stores todos in a local JSON file (todo.json) and lets you manage tasks directly from your terminal.
 
-🚀 Features
+**🚀 Features**
 
 Add new todos
 
@@ -15,7 +15,7 @@ List all todos with status
 
 Data persistence using todo.json (filesystem storage)
 
-📂 How It Works
+**📂 How It Works**
 
 All tasks are stored in todo.json as an array of objects:
 
@@ -33,7 +33,7 @@ text: task description
 
 done: boolean (true if completed)
 
-⚙️ Usage
+**⚙️ Usage**
 Add a todo
 todo add "Buy groceries"
 
@@ -60,7 +60,7 @@ npm main.js delete 2
 ```
 
 
-🛠 Tech Stack
+**🛠 Tech Stack**
 
 Node.js
 
@@ -68,16 +68,10 @@ Commander.js (for CLI commands)
 
 fs (filesystem) module for reading/writing todo.json
 
-✅ Why this project?
+**✅ Why this project?**
 
 Teaches how to build a real CLI tool
 
 Shows how to manage data via the filesystem
 
-A foundation you can expand with:
 
-search/filter tasks
-
-deadlines & priorities
-
-exporting/importing
